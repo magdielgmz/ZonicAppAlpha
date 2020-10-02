@@ -30,11 +30,11 @@ final class LoginViewController: UIViewController, UITextFieldDelegate {
 //    }()
     
     
-    
-     private let progress: UIActivityIndicatorView = {
-        let progressCircle = UIActivityIndicatorView()
-        return progressCircle
-    }()
+
+//     private let progress: UIActivityIndicatorView = {
+//        let progressCircle = UIActivityIndicatorView()
+//        return progressCircle
+//    }()
     
     
     private let titleLabel: UILabel = {
@@ -166,13 +166,13 @@ final class LoginViewController: UIViewController, UITextFieldDelegate {
         navigationController?.navigationBar.barStyle = .black
     }
     
- @objc func showProgerssActivity(){
-        view.addSubview(progress)
-        progress.anchor(top: loginButton.topAnchor, right: view.rightAnchor, paddingTop: 15, paddingRight: 40)
-        progress.startAnimating()
-        progress.color = .white
-        
-    }
+// @objc func showProgerssActivity(){
+//        view.addSubview(progress)
+//        progress.anchor(top: loginButton.topAnchor, right: view.rightAnchor, paddingTop: 15, paddingRight: 40)
+//        progress.startAnimating()
+//        progress.color = .white
+//
+//    }
     
 //    func googleImageView(){
 //        view.addSubview(googleIcon)

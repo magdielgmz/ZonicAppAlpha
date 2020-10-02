@@ -33,7 +33,7 @@ class HomeController: UIViewController {
     
     private let signOutButton: UIButton = {
         let button = UIButton(type: .roundedRect)
-        button.setTitle("Log Out", for: .normal)
+        button.setTitle("LogOut", for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         button.addTarget(self, action: #selector(signOut), for: .touchUpInside)
         return button
@@ -75,7 +75,7 @@ class HomeController: UIViewController {
             self.navigationController?.pushViewController(LoginViewController(), animated: true)
             navigationController?.view.semanticContentAttribute = .forceRightToLeft
         } catch  {
-            print("DEBUG: Error signOut")
+            print("DEBUG: Error SignOut")
         }
     }
     
