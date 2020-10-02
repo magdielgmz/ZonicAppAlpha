@@ -119,7 +119,7 @@ final class LoginViewController: UIViewController, UITextFieldDelegate {
 //            print("Error al encotrar usuario \(error.localizedDescription)")
             return
         }
-        self.showProgerssActivity()
+//        self.showProgerssActivity()
         self.navigationController?.pushViewController(HomeController(), animated: true)
         guard let viewHomeController = UIApplication.shared.keyWindow?.rootViewController as? HomeController else { return }
         viewHomeController.configureUI()
