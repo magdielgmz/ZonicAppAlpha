@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>314883338231-qhb0pl92kumqhgtpl8rovrmmfkabbpao.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.314883338231-qhb0pl92kumqhgtpl8rovrmmfkabbpao</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDwTkN7SoZWV8chgrDX2_btc2LKW2ZHmNs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>314883338231</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mt.ZonicApp</string>
+	<key>PROJECT_ID</key>
+	<string>zonicapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zonicapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:314883338231:ios:6b87eb30dc8b0d73b348f2</string>
+	<key>DATABASE_URL</key>
+	<string>https://zonicapp.firebaseio.com</string>
+</dict>
+</plist>

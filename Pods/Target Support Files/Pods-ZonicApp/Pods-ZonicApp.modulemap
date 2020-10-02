@@ -1,0 +1,6 @@
+framework module Pods_ZonicApp {
+  umbrella header "Pods-ZonicApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
