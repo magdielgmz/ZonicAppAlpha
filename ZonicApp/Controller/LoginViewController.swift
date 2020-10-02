@@ -115,7 +115,7 @@ final class LoginViewController: UIViewController, UITextFieldDelegate {
         
        Auth.auth().signIn(withEmail:email, password: password) {(result, error) in
         if error != nil{
-            alerta.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil)); self.present(alerta, animated: true)
+            alerta.addAction(UIAlertAction(title: "OK", style: .default, handler: nil)); self.present(alerta, animated: true)
 //            print("Error al encotrar usuario \(error.localizedDescription)")
             return
         }
